@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router'
 import styled from 'styled-components';
 
 import { CenteredHeader } from './App.js'

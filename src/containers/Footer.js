@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router'
 import styled from 'styled-components';
 
 import { ColorScheme } from '../theme/styleConstants.js'
@@ -33,7 +34,7 @@ class Footer extends Component {
   render() {
     return (
       <FooterDiv>
-            <div className="row social" style={{ margin: 0 }}>
+            <div className="row social">
               <div className="col-lg-12">
                 <SocialIconList>
                   <SocialIcon><a href="mailto:sophiaciocca@gmail.com" target="_blank"><FAIcon className="fa fa-envelope fa-fw fa-2x" /></a></SocialIcon>
@@ -45,7 +46,7 @@ class Footer extends Component {
                 <br />
               </div>
             </div>
-            <div className="row" id="copyright" style={{ margin: 0 }}>
+            <div className="row" id="copyright">
               <div className="col-lg-12">
                 <p className="small">© 2017 Sophia Ciocca</p>
               </div>
